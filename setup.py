@@ -12,7 +12,7 @@ f.close()
 
 setup(
     name='sentry-riemann',
-    version='0.0.3',
+    version='0.0.4',
     author='Tim Buchwaldt',
     author_email='tim@buchwaldt.ws',
     url='http://github.com/timbuchwaldt/sentry-riemann',
