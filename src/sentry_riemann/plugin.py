@@ -51,10 +51,9 @@ class RiemannPlugin(Plugin):
 
         metric = []
         metric.append(group.project.slug.replace('-', '_'))
-        if add_loggers:
-            metric.append(group.logger)
         metric.append(group.get_level_display())
+
 
         with riemann_client.client.Client(UDPTransport(host, port)) as client:
             if not track_only_new or (is_new and track_only_new):
-                client.event(service=metric, state="error")
+                client.event(service='_'.join(metric), state='error', host=event.server_name)
