@@ -13,7 +13,7 @@ from sentry_riemann.forms import RiemannOptionsForm
 
 class RiemannPlugin(Plugin):
     """
-    Sentry plugin to send errors stats to StatsD.
+    Sentry plugin to send errors stats to Riemann.
     """
     author = 'Tim Buchwaldt'
     author_url = 'https://github.com/timbuchwaldt/sentry-riemann'
