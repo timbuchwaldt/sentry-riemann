@@ -22,4 +22,4 @@ After installing and configuring, make sure to restart sentry-worker for the
 changes to take into effect.
 
 
-This plugin is heavily based on `riemann-statsd<https://github.com/dreadatour/sentry-statsd>`_.
+This plugin is heavily based on https://github.com/dreadatour/sentry-statsd>
