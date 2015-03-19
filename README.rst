@@ -1,4 +1,4 @@
-sentry-rienann
+sentry-riemann
 =============
 
 An extension for Sentry to send errors metrics to riemann.
